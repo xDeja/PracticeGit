@@ -4,6 +4,7 @@ public class Sorting{
         int[] currentArray = new int[]{3,21,4,3,42,41,1,123,13};
         int[] sortedArray = mergeSort(currentArray);
 
+        print("Hello World from Git!");
         print("Current Array: " + Arrays.toString(currentArray));
         print("Sorted Array: " + Arrays.toString(sortedArray));
         
