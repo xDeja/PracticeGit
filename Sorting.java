@@ -12,6 +12,7 @@ public class Sorting{
     public static int[] mergeSort(int[] currentArray){
         if(currentArray.length <= 1) return currentArray;
         
+        String s = "Hello World";
         int middleIndex = currentArray.length/2;
         int[] leftArray = Arrays.copyOfRange(currentArray, 0, middleIndex);
         int[] rightArray = Arrays.copyOfRange(currentArray, middleIndex, currentArray.length);
